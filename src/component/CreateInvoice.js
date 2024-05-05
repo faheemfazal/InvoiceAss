@@ -66,7 +66,7 @@ export default function CreateInvoice({setOpen,setInvoices,setInvoiceId,invoicei
       setTotalTax(Number(totalTax)+Number(details[details.length - 1].tax))
      
     } else {
-      setErrorMsg(` item Id ${details[details.length - 1].itemId} has not filled`);
+      setErrorMsg(` item Id ${details[details.length - 1].itemId} has not filled`);    
     }
 
 
