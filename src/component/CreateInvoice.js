@@ -59,6 +59,8 @@ export default function CreateInvoice({setOpen,setInvoices,setInvoiceId,invoicei
       console.log('nannoo');
       setDetails([...details, { itemId: details[details.length - 1].itemId + 1 }]);
       setErrorMsg("");
+      setSaveErrMsg('')
+
       console.log(details);
       setTotalPrice(Number(totalPrice)+Number(details[details.length - 1].price))
       setTotalTax(Number(totalTax)+Number(details[details.length - 1].tax))
