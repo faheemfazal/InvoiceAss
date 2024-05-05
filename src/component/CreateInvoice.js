@@ -244,15 +244,15 @@ export default function CreateInvoice({setOpen,setInvoices,setInvoiceId,invoicei
           <div className="flex justify-end w-full pe-2 ">
 
             <div>
-            <div className="w-72 h-9 bg-[#afb9cc] flex justify-around items-center">
+            <div className="w-60 h-9 bg-[#afb9cc] flex justify-around items-center">
               <h1 className="text-white  text-xl">Total Price:- </h1>
               <h1 className="text-white  text-xl">{totalPrice} </h1>
             </div>
-            <div className="w-72 h-9 bg-[#afb9cc] flex justify-around items-center">
+            <div className="w-60 h-9 bg-[#afb9cc] flex justify-around items-center">
               <h1 className="text-white  text-xl">Total Tax:- </h1>
               <h1 className="text-white  text-xl">{totalTax} </h1>
             </div>
-            <div className="w-72 h-9 bg-[#525e75] flex justify-around items-center">
+            <div className="w-60 h-9 bg-[#525e75] flex justify-around items-center">
               <h1 className="text-white  text-xl">Grand Total:- </h1>
               <h1 className="text-white  text-xl">{totalPrice+totalTax} </h1>
             </div>

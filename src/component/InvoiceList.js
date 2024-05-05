@@ -14,7 +14,7 @@ export default function InvoiceList() {
 
    
   return (
-    <div className="w-full h-full flex justify-between gap-16 px-10">
+    <div className="w-full h-full flex justify-between gap-16 md:px-10 px-2">
       {/* <div className="h-[400px] rounded-e-full w-10 bg-[#6ea864] sm:static sm:visible invisible absolute top-36"></div> */}
       <div className="w-full ">
         <div className=" flex justify-between pr-2">
