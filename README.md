@@ -1,3 +1,44 @@
+# React Developer Challenge
+
+Welcome to the React Developer Challenge for the position of React Developer. This challenge is designed to assess your proficiency in React and your ability to tackle real-world scenarios. Below are a series of tasks that will test your skills in developing a React application. Complete them to the best of your ability, demonstrating your understanding of React principles and best practices. Good luck!
+
+## Hosted Link
+
+[Invoice Application Hosted Link](https://user-ljrm.vercel.app/)
+
+## GitHub Repository
+
+[GitHub Repository Link](https://github.com/faheemfazal/InvoiceAss)
+
+## Task List
+
+1. **Display Invoice List Form:**
+   - Upon application launch, the invoice list form should be displayed.
+
+2. **Create Invoice Form:**
+   - Clicking "Add" in the invoice list form should open the create invoice form.
+
+3. **Add Items Popup:**
+   - Clicking "Add" in the create invoice form should trigger a popup for adding items.
+
+4. **Add Items to Grid:**
+   - From the item popup, enable adding items to the grid.
+
+5. **Calculate Totals:**
+   - Ensure calculations function as illustrated in the provided figure.
+
+6. **Save Invoice:**
+   - Clicking "Save" in the create invoice form should hide the form and display items in the grid below.
+
+## Additional Notes
+
+- Feel free to use any additional libraries or tools you find necessary.
+- Prioritize clean code and maintainability.
+- If you have any questions or need clarification, don't hesitate to reach out to the hiring manager.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
